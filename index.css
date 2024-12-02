@@ -1,0 +1,81 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+    border:2px solid black;
+}
+
+header ul{
+    padding:7px;
+    margin:5px;
+}
+header li{
+    display:inline;
+    text-decoration:none;
+}
+
+#About{
+    display:flex;
+    flex-direction: column;
+    border:2px solid black;
+    padding:10px;
+}
+
+#About h3{
+    padding-bottom:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:340px){
+
+}  
+
+@media only screen and (min-width:500px){
+
+}
+
+
+@media only screen and (min-width:600px){ 
+
+}
+
+
+@media only screen and (min-width:768px){ 
+
+ 
+    
+}
