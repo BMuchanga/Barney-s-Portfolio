@@ -32,6 +32,54 @@ header li{
     padding-bottom:5px;
 }
 
+#second{
+    border:2px solid black;
+}
+
+#skills{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    border:2px solid black;
+}
+.options{
+  width:43%;
+  margin:10px;
+  border:2px solid black;
+}
+
+#third{
+    border:2px solid black;
+}
+
+#certs{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+    border:2px solid black;
+}
+
+.pics{
+    width:70%;
+    border:2px solid black;
+}
+
+#fourth{
+    border:2px solid black;
+}
+
+#projects{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+    border:2px solid black;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
 
 
 
