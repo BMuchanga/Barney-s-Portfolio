@@ -44,8 +44,8 @@ header li{
     border:2px solid black;
 }
 .options{
-  width:43%;
-  margin:10px;
+  width:40%;
+  margin:5px;
   border:2px solid black;
 }
 
@@ -81,7 +81,16 @@ a{
     color:black;
 }
 
+#contacts{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+}
 
+#icons{
+    padding:0px 10px;
+}
 
 
 
