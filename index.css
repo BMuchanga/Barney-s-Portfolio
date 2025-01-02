@@ -7,25 +7,22 @@
 header{
     display:flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    padding:10px;
-    border:2px solid black;
+    padding:8px;
 }
 
-header ul{
-    padding:7px;
-    margin:5px;
-}
 header li{
     display:inline;
     text-decoration:none;
+    margin:0px 5px;
 }
 
 #About{
     display:flex;
     flex-direction: column;
-    border:2px solid black;
-    padding:10px;
+    align-items: center;
+    padding:7px;
 }
 
 #About h3{
@@ -33,47 +30,58 @@ header li{
 }
 
 #second{
-    border:2px solid black;
+    margin:7px;
+}
+
+#second h3{
+    text-align: center; 
+    padding-bottom:5px;
 }
 
 #skills{
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
-    justify-content: space-evenly;
-    border:2px solid black;
+    justify-content: space-around;
 }
 .options{
-  width:40%;
+  width:45%;
   margin:5px;
+  padding:5px;
   border:2px solid black;
 }
 
+.options h4{
+    text-align: center;
+    padding-bottom:3px;
+}
+
+
 #third{
-    border:2px solid black;
+    text-align: center;
+    padding:5px;
 }
 
 #certs{
     display:flex;
     flex-direction: row;
-    padding:10px;
-    border:2px solid black;
+    margin:10px;
 }
 
 .pics{
-    width:70%;
+    width:80%;
     border:2px solid black;
 }
 
 #fourth{
-    border:2px solid black;
+    text-align: center;
+    padding:5px;
 }
 
 #projects{
     display:flex;
     flex-direction: row;
-    padding:10px;
-    border:2px solid black;
+    margin:10px;
 }
 
 a{
@@ -85,12 +93,13 @@ a{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:10px;
+    padding:8px;
 }
 
-#icons{
-    padding:0px 10px;
+#icons i{
+    margin-right:5px;
 }
+/**change icon size**/
 
 
 
@@ -117,7 +126,7 @@ a{
 
 
 
-@media only screen and (min-width:340px){
+@media only screen and (min-width:420px){
 
 }  
 
