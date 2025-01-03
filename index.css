@@ -4,6 +4,14 @@
     padding:0;
 }
 
+
+body{
+    background-color: #171717;
+    color:white;
+    font-family: "Archivo", serif;
+        
+}
+
 header{
     display:flex;
     flex-direction: row;
@@ -12,10 +20,20 @@ header{
     padding:8px;
 }
 
+h2,h3{
+    font-family: "Abril Fatface", serif;
+        
+}
+h2{
+    color:#e2dfd2;
+}
+
 header li{
     display:inline;
     text-decoration:none;
     margin:0px 5px;
+    font-family: "Abril Fatface", serif;
+    color:#fffffc;
 }
 
 #About{
@@ -23,6 +41,10 @@ header li{
     flex-direction: column;
     align-items: center;
     padding:7px;
+}
+
+h3{
+    color:#38aecc;
 }
 
 #About h3{
@@ -48,7 +70,9 @@ header li{
   width:45%;
   margin:5px;
   padding:5px;
-  border:2px solid black;
+  background-color:#e2dfd2 ;
+  color:black;
+  border:2px solid #ffffcc;
 }
 
 .options h4{
@@ -56,6 +80,9 @@ header li{
     padding-bottom:3px;
 }
 
+.figures a{
+    color:white;
+}
 
 #third{
     text-align: center;
@@ -70,7 +97,7 @@ header li{
 
 .pics{
     width:80%;
-    border:2px solid black;
+    border:2px solid white;
 }
 
 #fourth{
@@ -86,20 +113,23 @@ header li{
 
 a{
     text-decoration:none;
-    color:black;
+    color:#e2dfd2;
+}
+
+footer a{
+    font-size:23px;
+    margin-right:5px;
 }
 
 #contacts{
     display:flex;
     flex-direction: row;
+    color:#e2dfd2;
+    align-items: center;
     justify-content: space-between;
     padding:8px;
+    margin-top:10px;
 }
-
-#icons i{
-    margin-right:5px;
-}
-/**change icon size**/
 
 
 
