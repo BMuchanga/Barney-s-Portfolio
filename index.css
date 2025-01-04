@@ -14,7 +14,7 @@ body{
 
 header{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding:8px;
@@ -26,6 +26,7 @@ h2,h3{
 }
 h2{
     color:#e2dfd2;
+    margin-bottom: 5px;
 }
 
 header li{
@@ -42,6 +43,11 @@ header li{
     align-items: center;
     padding:7px;
 }
+
+article{
+    text-align: center;
+}
+
 
 h3{
     color:#38aecc;
@@ -97,7 +103,6 @@ h3{
 
 .pics{
     width:80%;
-    border:2px solid white;
 }
 
 #fourth{
@@ -152,26 +157,200 @@ footer a{
 
 
 
-
-
-
-
-@media only screen and (min-width:420px){
+@media only screen and (min-width:360px){   
+    header{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding:8px;
+    }
 
 }  
 
-@media only screen and (min-width:500px){
-
-}
-
-
-@media only screen and (min-width:600px){ 
-
-}
-
 
 @media only screen and (min-width:768px){ 
+    header{
+        margin-bottom: 10px;
+    }
 
- 
+    li{
+        padding:8px;
+    }
+
+    li:hover{
+        color:#ffa500;
+        cursor:pointer;
+        border:2px solid gray;
+        background-color:#ffffcc;
+        border-radius:5px;
+    }
+    #About{
+        margin-bottom:10px;
+    }
+    #second{
+        margin-bottom:10px;
+    }
+    #third{
+        margin-bottom:10px;
+    }
+    
+
+    body p,article{
+        font-size:20px;
+    }
+
+    h2{
+        font-size:40px;
+    }
+
+    h3{
+        font-size:30px;
+        margin-bottom: 10px;
+    }
+
+    h4{
+        font-size:25px;
+    }
+
+    header li{
+        font-size:20px;
+        margin:10px;
+    }
+
+    a{
+        font-size:20px;
+    }
+
+    .pics{
+        margin-bottom: 10px;
+    }
+
+    .options{
+        padding:10px;
+    }
+
+    #contacts{
+        font-size:20px;
+        padding:10px;
+    }
+
+    footer a{
+        font-size:32px;
+        margin-right:15px;
+    }
+
+}
+
+
+@media only screen and (min-width:1200px){ 
+    header{
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-between;
+        padding:20px;
+        margin-bottom: 20px;
+    }
+
+    li{
+        padding:8px;
+    }
+
+    li:hover{
+        color:#ffa500;
+        cursor:pointer;
+        border:2px solid gray;
+        background-color:#ffffcc;
+        border-radius:5px;
+    }
+    
+    h2{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size:30px;
+        margin-bottom: 20px;
+    }
+
+    header li{
+        font-size:20px;
+        margin:10px;
+    }
+    
+    #About{
+        width:50%;
+        margin:auto;
+        padding:20px;
+        font-size:20px;
+    }
+
+    #About article{
+        margin-bottom: 20px;
+    }
+
+    #skills{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding:30px;
+        width:85%;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+
+    .options{
+        width:23%;
+        padding:10px;
+    }
+
+    .options h4{
+        font-size:25px;
+        margin:10px;
+    }
+
+    .options p{
+        font-size:20px;
+    }
+
+    #third{
+        padding:20px;
+        font-size:20px;
+    }
+
+    #certs{
+        padding:30px;
+        width:80%;
+        margin:auto;
+    }
+
+    .pics{
+        width:80%;
+        margin:10px;
+        border:none;
+    }
+
+    #fourth{
+        padding:20px;
+        font-size:20px;
+    }
+
+    #projects{
+        padding:30px;
+        width:80%;
+        margin:auto;
+    }
+
+
+    #contacts{
+        font-size:20px;
+        padding:10px;
+    }
+
+    footer a{
+        font-size:32px;
+        margin-right:15px;
+    }
+    
     
 }
