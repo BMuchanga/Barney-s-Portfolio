@@ -14,7 +14,7 @@ body{
 
 header{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding:8px;
@@ -26,15 +26,15 @@ h2,h3{
 }
 h2{
     color:#e2dfd2;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 header li{
     display:inline;
     text-decoration:none;
-    margin:0px 5px;
+    margin:0px 8px;
     font-family: "Abril Fatface", serif;
-    color:#fffffc;
+    color:#e2dfd2;
 }
 
 #About{
@@ -87,7 +87,7 @@ h3{
 }
 
 .figures a{
-    color:white;
+    color:#e2dfd2;
 }
 
 #third{
@@ -126,7 +126,7 @@ h3{
 
 .pics1{
     width:90%;
-    border:2px solid white;
+    border:2px solid gray;
 }
 
 a{
@@ -172,6 +172,11 @@ footer a{
 
 @media only screen and (min-width:768px){ 
     header{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding:8px;
         margin-bottom: 10px;
     }
 
@@ -192,9 +197,7 @@ footer a{
     #second{
         margin-bottom:10px;
     }
-    #third{
-        margin-bottom:10px;
-    }
+
 
     body p,article{
         font-size:20px;
@@ -223,7 +226,6 @@ footer a{
     }
 
     #certs{
-        padding:30px;
         width:100%;
         margin:auto;
     }
@@ -232,6 +234,13 @@ footer a{
     .pics{
         width:100%;
         margin:10px;
+    }
+
+    #projects{
+        padding:10px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
     }
 
     .options{
@@ -325,12 +334,11 @@ footer a{
     }
 
     #third{
-        padding:20px;
         font-size:20px;
     }
 
     #certs{
-        padding:30px;
+        padding:10px;
         width:100%;
         margin:auto;
     }
@@ -357,7 +365,6 @@ footer a{
 
     .pics1{
         width:100%;
-        border:1px solid white;
     }
 
     #contacts{
