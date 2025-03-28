@@ -335,17 +335,44 @@ footer a{
 
     #third{
         font-size:20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:10px;
     }
 
     #certs{
-        padding:10px;
-        width:100%;
-        margin:auto;
+        margin:10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
     }
 
     .pics{
         width:90%;
         margin:10px;
+    }
+
+    .snaps{
+        height:450px;
+        width:750px;
+    }
+
+    #btn1{
+        padding:10px;
+        margin:20px;
+        height:50px;
+        background-color:#38aecc;
+        color:white;
+        border:black;
+        border-radius:5px;
+        cursor:pointer;
+    }
+
+    #third a:hover{
+        color:#ffa500;
     }
 
     #fourth{
@@ -365,6 +392,17 @@ footer a{
 
     .pics1{
         width:100%;
+        margin-bottom: 12px;
+    }
+
+    .pics1:hover{
+        cursor:pointer;
+        scale:1.1;
+        box-shadow: #ffffcc 0px 0px 10px;
+    }
+
+    #projects a:hover{
+        color:#ffa500;
     }
 
     #contacts{
