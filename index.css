@@ -91,19 +91,40 @@ h3{
 }
 
 #third{
-    text-align: center;
-    padding:5px;
+    font-size:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+
+#third p{
+    font-size:16px;
 }
 
 #certs{
+    margin:5px;
     display:flex;
-    flex-direction: row;
-    margin:10px;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
 }
 
-.pics{
-    width:90%;
-    height:70%;
+.snaps{
+    height:200px;
+    width:300px;
+}
+
+#btn1{
+    padding:5px;
+    margin:10px;
+    height:30px;
+    background-color:#38aecc;
+    color:white;
+    border:black;
+    border-radius:5px;
+    cursor:pointer;
 }
 
 #fourth{
@@ -225,15 +246,37 @@ footer a{
         font-size:20px;
     }
 
-    #certs{
-        width:100%;
-        margin:auto;
+    #third{
+        font-size:20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:10px;
     }
 
-
-    .pics{
-        width:100%;
+    #certs{
         margin:10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+    }
+
+    .snaps{
+        height:300px;
+        width:450px;
+    }
+
+    #btn1{
+        padding:10px;
+        margin:20px;
+        height:50px;
+        background-color:#38aecc;
+        color:white;
+        border:black;
+        border-radius:5px;
+        cursor:pointer;
     }
 
     #projects{
@@ -241,10 +284,6 @@ footer a{
         display:flex;
         flex-direction:row;
         justify-content:space-between;
-    }
-
-    .options{
-        padding:10px;
     }
 
     #contacts{
@@ -370,6 +409,8 @@ footer a{
         border-radius:5px;
         cursor:pointer;
     }
+
+
 
     #third a:hover{
         color:#ffa500;

@@ -9,4 +9,8 @@ var imageNumber= 1;
    imageNumber ++;
    image.setAttribute('src', 'images/image' + imageNumber + '.png');
    }
+   else if(imageNumber == 4){
+    imageNumber = 1;
+    image.setAttribute('src', 'images/image' + imageNumber + '.png');
+   }
 });
